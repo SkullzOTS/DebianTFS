@@ -716,8 +716,7 @@ bool LuaScriptInterface::loadDirectory(const std::string& dir, Npc* npc/* = NULL
 	StringVec files;
 	for(boost::filesystem::directory_iterator it(dir), end; it != end; ++it)
 	{
-		// std::string s = it->leaf();  //COMPILAÇÃO EM WINDOWS
-		std::string s = it->path().filename().string()  //COMPILAÇÃO EM LINUX
+		std::string s = it->leaf();
 		if(!boost::filesystem::is_directory(it->status()) && (s.size() > 4 ? s.substr(s.size() - 4) : "") == ".lua")
 			files.push_back(s);
 	}

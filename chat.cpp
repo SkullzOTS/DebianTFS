@@ -1126,7 +1126,7 @@ ChatChannel* Chat::getChannel(Player* player, uint16_t channelId)
 	std::cout << "Chat::getChannel - getChannel id " << channelId << std::endl;
 	#endif
 	if(!player || player->isRemoved())
-		return NULL;
+		return false;
 
 	if(channelId == CHANNEL_GUILD)
 	{

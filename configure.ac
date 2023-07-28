@@ -134,7 +134,7 @@ AC_CHECK_FUNCS([floor ftime gethostbyname gethostname memset pow sqrt strcasecmp
 
 # check for libxml2
 AM_PATH_XML2(2.6.5, , AC_MSG_ERROR([you need libxml2 >= 2.6.5 to compile theforgottenserver!]))
-LIBS="$LIBS $XML_LIBS -lpthread"
+LIBS="$LIBS $XML_LIBS"
 
 #check GMP
 AC_CHECK_HEADERS([gmp.h], ,[AC_MSG_ERROR("GMP header not found.")])
@@ -185,7 +185,7 @@ AC_CHECK_LIB(boost_filesystem-gcc-mt, main, , [
 AC_CHECK_HEADERS([boost/asio.hpp], , [AC_MSG_ERROR("boost::asio header not found.")])
 
 # check for boost::unordered_set
-AC_CHECK_HEADERS([boost/unordered_set.hpp], , [AC_MSG_ERROR("boost::unordered_set header not found.")])
+AC_CHECK_HEADERS([boost/tr1/unordered_set.hpp], , [AC_MSG_ERROR("boost::unordered_set header not found.")])
 
 #check lua 5.1
 PKG_CHECK_MODULES(LUA, lua5.1 >= 5.1, , [
