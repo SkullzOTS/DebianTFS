@@ -1,4 +1,1 @@
-# pfield-cdbar-source
-exclusivo do Xtibia
-
-Essas sources são exclusivas do Topico Pfield com cdbar! que pertence ao Xtibia! se for postar em outro forum não esqueça dos creditos!
+NÃO UTILIZE ESSA SOURCE EM HIPÓTESE ALGUMA (CONTÉM MUITA TRAP E BUG), A MESMA SÓ FOI UTILIZADA PARA MOSTRAR ONDE SE DEVE FAZER AS CORREÇÕES NA SOURCE PARA QUE POSSA COMPILAR!
