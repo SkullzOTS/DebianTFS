@@ -5,7 +5,10 @@ NÃO UTILIZE ESSA SOURCE EM HIPÓTESE ALGUMA (CONTÉM MUITA TRAP E BUG), A MESMA
 PASSO A PASSO:
 
 #CRIANDO MÁQUINA VIRTUAL -> https://www.youtube.com/watch?v=r7ssIhk0GQ8
-#DOWNLOAD DEBIAN -> https://www.debian.org/download
+#DOWNLOAD DEBIAN: https://www.debian.org/releases/index.pt.html
+#DOWNLOAD UBUNTU: https://ubuntu.com/download/alternative-downloads
+
+LINUX PACK: https://drive.google.com/file/d/1iLDOYMzDLcd9OnO_OVSzI6uJi_zftebs/view?usp=sharing
 
 
 su -  (caso não esteja com acesso root)
